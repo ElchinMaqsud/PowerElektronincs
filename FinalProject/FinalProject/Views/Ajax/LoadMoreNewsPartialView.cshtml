@@ -1,0 +1,27 @@
+﻿@model IEnumerable<News>
+
+@foreach (var news in Model)
+{
+    <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="one-news d-flex">
+            <div class="col-12 col-sm-12 col-md-6">
+                <div class="one-news-image">
+                    <img style="object-fit:cover!important" src="~/img/@news.PhotoUrl">
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6">
+                <div class="one-news-title-about">
+                    <div class="one-news-title">
+                        <h5>@news.Title</h5>
+                    </div>
+                    <div class="one-news-about">
+                        <p>@news.Info</p>
+                        <span>@news.AddDate.Date.ToShortDateString()</span>
+                        <button class="one-news-more-btn"><a asp-controller="Home" asp-action="NewsDetails" asp-route-id="@news.Id">Ətraflı</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+}

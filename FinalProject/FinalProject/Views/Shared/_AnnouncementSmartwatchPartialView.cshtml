@@ -1,0 +1,32 @@
+﻿@model IEnumerable<Announcement>
+
+
+@foreach (var adsSmartwatch in Model)
+{
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4" data-aos="zoom-in-up" data-aos-duration="3000">
+        <div style="width:100%!important" class="smartwatch">
+            <div class="smartwatch-img">
+                <img class="img-fluid" src="~/img/@adsSmartwatch.PhotoUrl  "/>
+            </div>
+
+            <div class="smartwatch-name d-flex justify-content-between">
+                <h5 style="font-size:16px!important">@adsSmartwatch.Name</h5>
+                <div class="smartwatch-activity">
+                    
+                    <a class="about-icon" asp-controller="Home" asp-action="AdsDetails" asp-route-id="@adsSmartwatch.Id">
+                        Ətraflı
+                    </a>
+                </div>
+            </div>
+            <div class="smartwatch-infos d-flex align-items-center justify-content-between">
+                <div class="smartwatch-info d-flex">
+                    <small>@adsSmartwatch.City.Name, @adsSmartwatch.AddDate.Date.ToShortDateString()</small>
+                    
+                </div>
+                <div class="smartwatch-price">
+                    <span>@adsSmartwatch.Price Azn</span>
+                </div>
+            </div>
+        </div>
+    </div>
+}

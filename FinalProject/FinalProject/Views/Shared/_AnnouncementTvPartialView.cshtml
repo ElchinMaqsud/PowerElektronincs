@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Announcement>
+
+
+@foreach (var adsTv in Model)
+{
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4" data-aos="flip-down" data-aos-duration="3000">
+        <div class="tv">
+            <div class="tv-img">
+                <img class="img-fluid" src="~/img/@adsTv.PhotoUrl" />
+            </div>
+
+            <div class="tv-name d-flex justify-content-between">
+                <h5>@adsTv.Name</h5>
+                <div class="tv-activity">
+                    
+                    <a class="about-icon" asp-controller="Home" asp-action="AdsDetails" asp-route-id="@adsTv.Id">
+                        Ətraflı
+                    </a>
+                </div>
+            </div>
+            <div class="tv-infos d-flex align-items-center justify-content-between">
+                <div class="tv-info d-flex">
+                    <small>@adsTv.City.Name, @adsTv.AddDate.Date.ToShortDateString()</small>
+                </div>
+                <div class="tv-price">
+                    <span>@adsTv.Price Azn</span>
+                </div>
+            </div>
+        </div>
+    </div>
+}

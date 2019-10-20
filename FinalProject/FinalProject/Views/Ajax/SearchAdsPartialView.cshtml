@@ -1,0 +1,33 @@
+﻿@model HomeVM
+
+
+@foreach (var ads in Model.Announcements)
+{
+
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="3000">
+        <div style="width:100%!important;" class="smartphone">
+            <div class="smartphone-img">
+                <img class="img-fluid" src="~/img/@ads.PhotoUrl" />
+            </div>
+
+            <div class="smartphone-name d-flex justify-content-between align-items-center">
+                <h5>@ads.Name</h5>
+                <div class="smartphone-activity">
+
+                    <a class="about-icon" asp-controller="Home" asp-action="AdsDetails" asp-route-id="@ads.Id">
+                        Ətraflı
+                    </a>
+                </div>
+            </div>
+            <div class="smartphone-infos d-flex align-items-center justify-content-between">
+                <div class="smartphone-info d-flex">
+                    <small>@ads.City.Name, @ads.AddDate.Date.ToShortDateString()</small>
+                </div>
+                <div class="smartphone-price">
+                    <span>@ads.Price Azn</span>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

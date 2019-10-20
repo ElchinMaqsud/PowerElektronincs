@@ -1,0 +1,1928 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAUXarh0D180OGU6qepDZEeQAAAAACAAAAAAAQZgAAAAEAACAAAAD9J7bxbnsNH7LoRW2GTPJjH2Wtf63vL8AYMS+8Ix59tAAAAAAOgAAAAAIAACAAAACIugOmTab0nxLK3k9YYteIRzWSIjgfywi6GPpPbTbMgyAAAABsEHsRfGKCnTLhcskS84y9w7AEVX1AH3K1jrSPpd07EEAAAAAXVy7QeX4P28mSp3fZB4s3+iI6J1Y+My0H2wVCcvP7REkRzYdZmP1qCsjwT+mvr5MZoDjOT4ejXRwkJHedfdCD</EncryptedPassword>
+    <_PublishTargetUrl>ftp://ftp-eu.site4now.net/site1</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>09/23/2019 14:46:02</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/19/2019 19:04:54</publishTime>
+    </File>
+    <File Include="Castle.Core.dll">
+      <publishTime>10/10/2017 08:13:52</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>09/24/2019 19:57:52</publishTime>
+    </File>
+    <File Include="FinalProject.deps.json">
+      <publishTime>10/20/2019 18:16:06</publishTime>
+    </File>
+    <File Include="FinalProject.dll">
+      <publishTime>10/20/2019 18:15:58</publishTime>
+    </File>
+    <File Include="FinalProject.pdb">
+      <publishTime>10/20/2019 18:15:58</publishTime>
+    </File>
+    <File Include="FinalProject.runtimeconfig.json">
+      <publishTime>10/20/2019 18:16:06</publishTime>
+    </File>
+    <File Include="FinalProject.Views.dll">
+      <publishTime>10/20/2019 18:15:59</publishTime>
+    </File>
+    <File Include="FinalProject.Views.pdb">
+      <publishTime>10/20/2019 18:15:59</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>07/13/2019 20:47:00</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>07/13/2019 20:46:54</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Proxies.dll">
+      <publishTime>06/07/2018 00:26:58</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>09/24/2019 19:57:20</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>09/24/2019 19:57:24</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>09/24/2019 19:57:28</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>09/24/2019 19:57:26</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>09/24/2019 19:57:22</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>09/24/2019 19:57:20</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>09/24/2019 19:57:30</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>07/13/2019 20:46:59</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>07/13/2019 20:47:03</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>07/13/2019 20:47:03</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>07/13/2019 20:47:03</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>07/13/2019 20:47:03</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>07/13/2019 20:47:03</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>10/20/2019 18:16:06</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/background/img4.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/background/img5.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/background/img6.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/big/auth-bg.jpg">
+      <publishTime>06/08/2018 09:02:19</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/big/img1.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/big/img2.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/big/img3.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/big/img4.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/big/img5.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/big/img6.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/big/Thumbs.db">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/custom-select.png">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/favicon.png">
+      <publishTime>06/01/2018 14:14:18</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/logo-icon.png">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/logo-text.png">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/logo.png">
+      <publishTime>06/08/2018 09:02:19</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/1-old.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/1.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/1.png">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/2.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/2.png">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/3.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/3.png">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/4.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/5.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/6.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/7.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/8.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/agent.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/agent2.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/d1.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/d2.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/d3.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/d4.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/d5.jpg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/images/users/profile.png">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/bootstrap/dist/css/bootstrap-grid.min.css">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/bootstrap/dist/css/bootstrap-reboot.min.css">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/bootstrap/dist/js/bootstrap.bundle.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/chart/chart.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/chart/excanvas.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/chart/jquery.flot.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/chart/jquery.flot.pie.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/chart/jquery.flot.resize.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/chart/jquery.peity.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/chart/jquery.ui.custom.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/chart/matrix.charts.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/chart/matrix.dashboard.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/chart/matrix.interface.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/chart/turning-series.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/inputmask/dist/jquery.inputmask.bundle.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/inputmask/dist/min/jquery.inputmask.bundle.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/build/jquery.steps-1.1.0.zip">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/build/jQuery.Steps.1.1.0.nupkg">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/build/jquery.steps.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/jquery.steps.css">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/lib/jquery-1.10.2.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/lib/jquery-1.11.1.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/lib/jquery-1.9.1.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/lib/jquery.cookie-1.3.1.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/lib/modernizr-2.6.2.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/LICENSE.txt">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/nuget/jQuery.Steps.nuspec">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/nuget/NuGet.exe">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/steps.css">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-steps/steps.jquery.json">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/additional-methods.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_ar.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_az.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_bg.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_bn_BD.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_ca.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_cs.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_da.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_de.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_el.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_es.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_es_AR.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_es_PE.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_et.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_eu.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_fa.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_fi.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_fr.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_ge.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_gl.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_he.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_hr.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_hu.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_hy_AM.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_id.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_is.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_it.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_ja.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_ka.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_kk.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_ko.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_lt.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_lv.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_mk.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_my.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_nl.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_no.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_pl.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_pt_BR.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_pt_PT.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_ro.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_ru.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_sd.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_si.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_sk.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_sl.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_sr.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_sr_lat.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_sv.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_th.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_tj.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_tr.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_uk.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_ur.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_vi.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_zh.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/messages_zh_TW.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/methods_de.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/methods_es_CL.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/methods_fi.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/methods_nl.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery-validation/dist/localization/methods_pt.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery.flot.tooltip/js/jquery.flot.tooltip.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery.flot.tooltip/js/jquery.flot.tooltip.source.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery/dist/core.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery/dist/jquery.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/jquery/dist/jquery.slim.min.js">
+      <publishTime>06/01/2018 13:31:56</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/ender.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/af.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ar-dz.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ar-kw.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ar-ly.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ar-ma.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ar-sa.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ar-tn.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ar.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/az.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/be.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/bg.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/bm.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/bn.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/bo.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/br.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/bs.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ca.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/cs.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/cv.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/cy.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/da.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/de-at.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/de-ch.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/de.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/dv.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/el.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/en-au.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/en-ca.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/en-gb.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/en-ie.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/en-il.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/en-nz.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/eo.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/es-do.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/es-us.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/es.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/et.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/eu.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/fa.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/fi.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/fo.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/fr-ca.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/fr-ch.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/fr.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/fy.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/gd.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/gl.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/gom-latn.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/gu.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/he.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/hi.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/hr.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/hu.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/hy-am.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/id.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/is.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/it.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ja.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/jv.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ka.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/kk.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/km.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/kn.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ko.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ky.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/lb.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/lo.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/lt.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/lv.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/me.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/mi.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/mk.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ml.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/mn.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/mr.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ms-my.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ms.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/mt.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/my.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/nb.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ne.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/nl-be.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/nl.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/nn.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/pa-in.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/pl.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/pt-br.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/pt.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ro.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ru.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/sd.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/se.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/si.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/sk.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/sl.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/sq.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/sr-cyrl.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/sr.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ss.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/sv.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/sw.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ta.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/te.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/tet.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/tg.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/th.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/tl-ph.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/tlh.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/tr.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/tzl.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/tzm-latn.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/tzm.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ug-cn.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/uk.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/ur.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/uz-latn.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/uz.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/vi.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/x-pseudo.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/yo.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/zh-cn.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/zh-hk.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/locale/zh-tw.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/min/locales.min.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/min/moment-with-locales.min.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/min/moment.min.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/moment.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/moment/package.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/perfect-scrollbar/dist/css/perfect-scrollbar.min.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/perfect-scrollbar/dist/js/perfect-scrollbar.jquery.min.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/perfect-scrollbar/dist/js/perfect-scrollbar.min.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.common.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.esm.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.min.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/quill/dist/quill.bubble.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/quill/dist/quill.core.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/quill/dist/quill.core.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/quill/dist/quill.min.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/assets/libs/quill/dist/quill.snow.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/css/fa-brands.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/css/fa-brands.min.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/css/fa-regular.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/css/fa-regular.min.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/css/fa-solid.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/css/fa-solid.min.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/css/fontawesome-all.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/css/fontawesome-all.min.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/css/fontawesome.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/css/fontawesome.min.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/fa-brands.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/fa-regular.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/fa-solid.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/fontawesome.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/_animated.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/_bordered-pulled.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/_core.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/_fixed-width.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/_icons.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/_larger.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/_list.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/_mixins.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/_rotated-flipped.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/_screen-reader.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/_stacked.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/less/_variables.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/fa-brands.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/fa-regular.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/fa-solid.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/fontawesome.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/_animated.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/_bordered-pulled.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/_core.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/_fixed-width.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/_icons.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/_larger.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/_list.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/_mixins.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/_rotated-flipped.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/_screen-reader.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/_stacked.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/scss/_variables.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-brands-400.eot">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-brands-400.svg">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-brands-400.ttf">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-brands-400.woff">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-brands-400.woff2">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-regular-400.eot">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-regular-400.svg">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-regular-400.ttf">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-regular-400.woff2">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-solid-900.eot">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-solid-900.svg">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-solid-900.ttf">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/font-awesome/webfonts/fa-solid-900.woff2">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/css/material-design-iconic-font.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/css/material-design-iconic-font.min.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/css/materialdesignicons.min.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.eot">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.svg">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.ttf">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/fonts/Material-Design-Iconic-Font.woff2">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.eot">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.svg">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.ttf">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/material-design-iconic-font/fonts/materialdesignicons-webfont.woff2">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/themify-icons/fonts/themify.eot">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/themify-icons/fonts/themify.svg">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/themify-icons/fonts/themify.ttf">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/themify-icons/fonts/themify.woff">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/themify-icons/ie7/ie7.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/themify-icons/ie7/ie7.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/themify-icons/themify-icons.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/themify-icons/themify-icons.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/css/weather-icons-core.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/css/weather-icons-variables.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/css/weather-icons-wind.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/css/weather-icons-wind.min.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/css/weather-icons.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/css/weather-icons.min.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/fonts/weathericons-regular-webfont.eot">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/fonts/weathericons-regular-webfont.svg">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/fonts/weathericons-regular-webfont.ttf">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/fonts/weathericons-regular-webfont.woff">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/fonts/weathericons-regular-webfont.woff2">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/css/variables-beaufort.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/css/variables-day.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/css/variables-direction.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/css/variables-misc.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/css/variables-moon.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/css/variables-neutral.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/css/variables-night.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/css/variables-time.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/css/variables-wind-names.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-classes/classes-beaufort.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-classes/classes-day.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-classes/classes-direction.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-classes/classes-misc.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-classes/classes-moon-aliases.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-classes/classes-moon.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-classes/classes-neutral.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-classes/classes-night.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-classes/classes-time.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-classes/classes-wind-aliases.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-classes/classes-wind-degrees.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-classes/classes-wind.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-variables/variables-beaufort.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-variables/variables-day.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-variables/variables-direction.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-variables/variables-misc.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-variables/variables-moon.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-variables/variables-neutral.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-variables/variables-night.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-variables/variables-time.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/icon-variables/variables-wind-names.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/mappings/wi-forecast-io.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/mappings/wi-owm.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/mappings/wi-wmo4680.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/mappings/wi-yahoo.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/weather-icons-classes.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/weather-icons-core.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/weather-icons-variables.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/weather-icons-wind.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/weather-icons-wind.min.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/weather-icons.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/less/weather-icons.min.less">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-classes/classes-beaufort.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-classes/classes-day.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-classes/classes-direction.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-classes/classes-misc.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-classes/classes-moon-aliases.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-classes/classes-moon.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-classes/classes-neutral.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-classes/classes-night.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-classes/classes-time.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-classes/classes-wind-aliases.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-classes/classes-wind-degrees.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-classes/classes-wind.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-variables/variables-beaufort.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-variables/variables-day.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-variables/variables-direction.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-variables/variables-misc.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-variables/variables-moon.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-variables/variables-neutral.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-variables/variables-night.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-variables/variables-time.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/icon-variables/variables-wind-names.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/mappings/wi-forecast-io.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/mappings/wi-owm.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/mappings/wi-wmo4680.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/mappings/wi-yahoo.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/weather-icons-classes.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/weather-icons-core.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/weather-icons-variables.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/weather-icons-wind.min.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/weather-icons-wind.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/weather-icons.min.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/icons/weather-icons/sass/weather-icons.scss">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/style.css">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/css/style.min.css">
+      <publishTime>06/08/2018 09:02:19</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/js/app-style-switcher.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/js/custom.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/js/custom.min.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/js/jquery-ui.min.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/js/jquery.ui.touch-punch-improved.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/js/sidebarmenu.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/Admin/dist/js/waves.js">
+      <publishTime>06/01/2018 13:31:57</publishTime>
+    </File>
+    <File Include="wwwroot/css/style.css">
+      <publishTime>10/13/2019 17:04:48</publishTime>
+    </File>
+    <File Include="wwwroot/css/style.css.map">
+      <publishTime>09/16/2019 19:45:56</publishTime>
+    </File>
+    <File Include="wwwroot/img/03f983bf-6d8a-4f9c-ad71-06692d811ad3_huaweiP30-4.jpg">
+      <publishTime>10/04/2019 17:52:41</publishTime>
+    </File>
+    <File Include="wwwroot/img/083c1d44-d1e2-4ba2-b8dd-f43e97b52610_ads3.jpg">
+      <publishTime>10/04/2019 18:07:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/08df8ff5-03a5-4007-a97b-957466d48820_ads1 - Copy.jpg">
+      <publishTime>10/04/2019 18:39:57</publishTime>
+    </File>
+    <File Include="wwwroot/img/0eacb93c-4f91-4cfa-be04-f47366d2e9d2_s10-2.jpg">
+      <publishTime>10/04/2019 17:41:05</publishTime>
+    </File>
+    <File Include="wwwroot/img/119fe631-7af0-4d76-8816-747eff535dc5_ads2.jpg">
+      <publishTime>10/04/2019 18:39:57</publishTime>
+    </File>
+    <File Include="wwwroot/img/11f7a441-62ff-4dbd-aa9c-320fd1c783b3_ads1 - Copy.jpg">
+      <publishTime>10/04/2019 18:03:12</publishTime>
+    </File>
+    <File Include="wwwroot/img/1beb8227-d63c-4a45-bcb1-64ac8a66e728_huaweiP30-4.jpg">
+      <publishTime>10/04/2019 17:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/1ec598ec-c2bf-4c46-a9b4-c6da3f05dbd3_huawei-p30-1.jpg">
+      <publishTime>10/13/2019 15:50:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/240bf99d-a8f3-4063-af39-adc4d6e90073_ads3.jpg">
+      <publishTime>10/04/2019 18:09:19</publishTime>
+    </File>
+    <File Include="wwwroot/img/26d2c1ca-7478-458e-be2b-95647c2df329_huaweiP30-2.jpg">
+      <publishTime>09/30/2019 20:52:39</publishTime>
+    </File>
+    <File Include="wwwroot/img/2bac6c66-c1a8-48db-8bc8-c56e15f00e61_swift3.jpg">
+      <publishTime>10/07/2019 20:53:45</publishTime>
+    </File>
+    <File Include="wwwroot/img/32ea923a-1ee7-48af-916a-d538234f728b_dellG3.jpg">
+      <publishTime>10/07/2019 20:53:45</publishTime>
+    </File>
+    <File Include="wwwroot/img/344e9242-ba9a-4cc9-b91e-56e497c9c5f4_ads1 - Copy.jpg">
+      <publishTime>10/04/2019 18:34:02</publishTime>
+    </File>
+    <File Include="wwwroot/img/35efea66-18dc-4d95-8bc5-ec840c97e9fb_notbuk.jpg">
+      <publishTime>10/07/2019 20:53:45</publishTime>
+    </File>
+    <File Include="wwwroot/img/3bdfbe97-985f-41d0-8531-06b8ed4e73d0_huaweiP30-2.jpg">
+      <publishTime>10/04/2019 17:52:41</publishTime>
+    </File>
+    <File Include="wwwroot/img/41e345e7-77ba-4e1c-bde6-24e75ea1df8f_ads1.jpg">
+      <publishTime>10/04/2019 18:34:02</publishTime>
+    </File>
+    <File Include="wwwroot/img/42739cda-3b47-40db-a0cb-ce58e777a972_ads1.jpg">
+      <publishTime>10/04/2019 18:03:12</publishTime>
+    </File>
+    <File Include="wwwroot/img/4fac75cf-8a6a-4909-abf0-00c470830536_ads3.jpg">
+      <publishTime>10/04/2019 18:39:57</publishTime>
+    </File>
+    <File Include="wwwroot/img/527faed2-4580-4d10-beba-c9eec7cee910_hpOmen.jpg">
+      <publishTime>10/13/2019 15:50:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/548964ff-f882-410e-b0fd-fdd864cea442_ads3.jpg">
+      <publishTime>10/04/2019 18:34:02</publishTime>
+    </File>
+    <File Include="wwwroot/img/56d59c30-32f6-47cc-a4cd-c96931f2193b_huaweiP30-4.jpg">
+      <publishTime>09/30/2019 20:52:39</publishTime>
+    </File>
+    <File Include="wwwroot/img/5966d210-31ae-4b78-a073-2b18cf4038a5_huaweiP30-3.jpg">
+      <publishTime>09/30/2019 20:52:39</publishTime>
+    </File>
+    <File Include="wwwroot/img/5a366b54-5986-4c03-a418-bd0db3b888c2_ads2.jpg">
+      <publishTime>10/04/2019 18:15:04</publishTime>
+    </File>
+    <File Include="wwwroot/img/5bbe824d-4649-498f-9751-c70e3f752420_ads3.jpg">
+      <publishTime>10/04/2019 18:17:18</publishTime>
+    </File>
+    <File Include="wwwroot/img/5e9d2a18-1391-42fe-95a4-2258852a645f_ads3.jpg">
+      <publishTime>10/04/2019 18:16:03</publishTime>
+    </File>
+    <File Include="wwwroot/img/5fee00a7-8419-4971-80a2-804cf33afb81_huawei-p30-1.jpg">
+      <publishTime>10/04/2019 18:46:38</publishTime>
+    </File>
+    <File Include="wwwroot/img/602fdbef-046c-4f1c-bce7-69a94ac25336_ads4.jpg">
+      <publishTime>10/04/2019 18:16:49</publishTime>
+    </File>
+    <File Include="wwwroot/img/66d7d526-bbf9-474f-9fd8-6c7c4774a78b_huawei-p30-1.jpg">
+      <publishTime>10/04/2019 17:52:41</publishTime>
+    </File>
+    <File Include="wwwroot/img/6807272c-19c8-46b8-befd-b8647dbea052_huaweiP30-2.jpg">
+      <publishTime>10/04/2019 18:46:38</publishTime>
+    </File>
+    <File Include="wwwroot/img/6a183d81-bfed-4b32-a67a-bd3494d57772_ads1.jpg">
+      <publishTime>10/04/2019 18:16:03</publishTime>
+    </File>
+    <File Include="wwwroot/img/6cbebfa1-f7cd-41fc-a3ec-1105f56f775e_ads4.jpg">
+      <publishTime>10/04/2019 16:30:17</publishTime>
+    </File>
+    <File Include="wwwroot/img/73048a35-8c3c-4b7e-a339-cb2c1e5cd392_ads1 - Copy.jpg">
+      <publishTime>10/04/2019 18:15:04</publishTime>
+    </File>
+    <File Include="wwwroot/img/754d5c45-e225-406e-a02e-7f2c0d6c3910_ads1.jpg">
+      <publishTime>10/04/2019 18:46:38</publishTime>
+    </File>
+    <File Include="wwwroot/img/765afbae-40d8-4483-9b14-caf6124a6e3b_ads1.jpg">
+      <publishTime>10/04/2019 18:09:19</publishTime>
+    </File>
+    <File Include="wwwroot/img/79af174a-8599-4f33-9cfc-9c01e66c92c4_ads4.jpg">
+      <publishTime>10/04/2019 18:17:18</publishTime>
+    </File>
+    <File Include="wwwroot/img/7b34fa95-08ed-4035-89ba-56783f1d96cc_ads2.jpg">
+      <publishTime>10/04/2019 18:17:18</publishTime>
+    </File>
+    <File Include="wwwroot/img/7ffacb10-1dcd-4c65-ba77-deb3b7d342eb_ads1.jpg">
+      <publishTime>10/08/2019 20:44:30</publishTime>
+    </File>
+    <File Include="wwwroot/img/864b0e64-d804-4511-bca2-1190a0a4ccca_ads1.jpg">
+      <publishTime>10/13/2019 15:50:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/87328dc2-d059-476d-99f5-4da246870370_ads2.jpg">
+      <publishTime>10/04/2019 18:09:19</publishTime>
+    </File>
+    <File Include="wwwroot/img/89a39096-5f0c-4ee1-bea1-5e6d1bf02ffa_ads2.jpg">
+      <publishTime>10/04/2019 18:16:03</publishTime>
+    </File>
+    <File Include="wwwroot/img/94c3cc02-5864-43cb-9371-feb4671947c5_adsMain.jpg">
+      <publishTime>10/08/2019 20:44:30</publishTime>
+    </File>
+    <File Include="wwwroot/img/9d2c1e52-01ae-4430-9505-f0258e6e1e4c_huaweiP30-3.jpg">
+      <publishTime>10/04/2019 17:54:35</publishTime>
+    </File>
+    <File Include="wwwroot/img/a25ee43d-55ef-4a23-81d2-065ce97c3839_huaweiP30-3.jpg">
+      <publishTime>10/04/2019 17:52:41</publishTime>
+    </File>
+    <File Include="wwwroot/img/a32f8058-c469-485c-b0f6-1a8c090a4ddf_huawei-p30-1.jpg">
+      <publishTime>10/04/2019 17:54:35</publishTime>
+    </File>
+    <File Include="wwwroot/img/a710671b-e760-4d31-aedd-f3ab268259f9_ads3.jpg">
+      <publishTime>10/04/2019 18:40:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/a72761e7-a8de-4409-add3-eea5e62c5d1d_ads4.jpg">
+      <publishTime>10/08/2019 20:44:30</publishTime>
+    </File>
+    <File Include="wwwroot/img/a779c851-4eb8-4f7a-a1e7-be5ae1f87ab6_s10.jpg">
+      <publishTime>10/04/2019 17:40:45</publishTime>
+    </File>
+    <File Include="wwwroot/img/ab219ded-6c78-438c-917f-59c0db322dba_adsMain.jpg">
+      <publishTime>10/04/2019 18:07:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/ac9de990-1b16-4378-b646-5ff37ebc34cd_huaweiP30-2.jpg">
+      <publishTime>10/04/2019 17:54:35</publishTime>
+    </File>
+    <File Include="wwwroot/img/ads1.jpg">
+      <publishTime>09/27/2019 19:45:29</publishTime>
+    </File>
+    <File Include="wwwroot/img/ads2.jpg">
+      <publishTime>09/27/2019 19:45:35</publishTime>
+    </File>
+    <File Include="wwwroot/img/ads3.jpg">
+      <publishTime>09/27/2019 19:45:42</publishTime>
+    </File>
+    <File Include="wwwroot/img/ads4.jpg">
+      <publishTime>09/27/2019 19:46:35</publishTime>
+    </File>
+    <File Include="wwwroot/img/adsMain.jpg">
+      <publishTime>09/27/2019 19:48:05</publishTime>
+    </File>
+    <File Include="wwwroot/img/ae785e74-ccfe-43bd-8d05-28f7e68e907d_huaweiP30Proo.jpg">
+      <publishTime>09/30/2019 20:52:39</publishTime>
+    </File>
+    <File Include="wwwroot/img/apple.jpg">
+      <publishTime>09/10/2019 15:13:26</publishTime>
+    </File>
+    <File Include="wwwroot/img/appleWatch.jpg">
+      <publishTime>09/24/2019 13:07:19</publishTime>
+    </File>
+    <File Include="wwwroot/img/b0fcdb25-faab-4d3a-ab8f-b73715f20cbd_ads2.jpg">
+      <publishTime>10/04/2019 18:07:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/b4f39a80-63d9-4a51-b3cc-c8e4fc0ef0b7_ads2.jpg">
+      <publishTime>10/04/2019 18:03:12</publishTime>
+    </File>
+    <File Include="wwwroot/img/b8995172-de83-492e-a1db-0c771bddd643_ads4.jpg">
+      <publishTime>10/04/2019 18:16:03</publishTime>
+    </File>
+    <File Include="wwwroot/img/b95bb45e-1328-4a80-86b1-970db456878c_hpOmen.jpg">
+      <publishTime>10/07/2019 20:53:45</publishTime>
+    </File>
+    <File Include="wwwroot/img/baa3d6f8-5eb3-4cf1-8e73-a3fa984aba87_ads2.jpg">
+      <publishTime>10/04/2019 18:34:02</publishTime>
+    </File>
+    <File Include="wwwroot/img/bfc82f5e-b35d-4b5c-b970-8c04f967f10e_ads4.jpg">
+      <publishTime>10/04/2019 18:40:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/c2d3b15e-3dca-4b9a-8433-badacb28d078_huaweiP30pro.jpg">
+      <publishTime>10/04/2019 17:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/c49ad85a-6093-45a7-b7a7-a2d4973cf819_huaweiP30Proo.jpg">
+      <publishTime>10/04/2019 17:51:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/c6dc908e-840c-4657-967b-397b045de664_ads2.jpg">
+      <publishTime>10/04/2019 18:40:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/d03cae47-b707-407b-8e93-7aa70f21ac92_huaweiP30-3.jpg">
+      <publishTime>10/13/2019 15:50:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/d0fdf5ad-8dae-40e2-9f19-c8da3f66490b_huaweiP30-2.jpg">
+      <publishTime>10/13/2019 15:50:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/d14ab5cb-64ee-4233-875d-91988c7c35c7_ads3.jpg">
+      <publishTime>10/04/2019 18:03:12</publishTime>
+    </File>
+    <File Include="wwwroot/img/d39d6cfa-14da-46ce-bfa7-cdd8985d8d7a_ads2.jpg">
+      <publishTime>10/04/2019 18:46:38</publishTime>
+    </File>
+    <File Include="wwwroot/img/d52a16fc-291c-46ee-8205-7db7a7bdd670_ads1.jpg">
+      <publishTime>10/04/2019 18:39:57</publishTime>
+    </File>
+    <File Include="wwwroot/img/d53024e9-cca4-4ea0-8b19-2de572eb3ba3_huaweiP30pro.jpg">
+      <publishTime>09/30/2019 20:52:39</publishTime>
+    </File>
+    <File Include="wwwroot/img/d78d73cc-ac15-4cbd-84ac-28da290db6f2_ads1.jpg">
+      <publishTime>10/04/2019 18:15:04</publishTime>
+    </File>
+    <File Include="wwwroot/img/dcd99663-8b61-4f8a-bc62-9eeeb5c35e3c_ads2.jpg">
+      <publishTime>10/08/2019 20:44:30</publishTime>
+    </File>
+    <File Include="wwwroot/img/dellG3.jpg">
+      <publishTime>09/24/2019 12:50:44</publishTime>
+    </File>
+    <File Include="wwwroot/img/e478855d-42fe-4219-935a-c4e5cf09460a_ads4.jpg">
+      <publishTime>10/04/2019 18:07:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/e4c35c34-c437-44a0-b7f1-08cb62a58433_ads2.jpg">
+      <publishTime>10/04/2019 16:30:17</publishTime>
+    </File>
+    <File Include="wwwroot/img/e77dd9a0-2289-4646-a896-d4bd26431876_ads3.jpg">
+      <publishTime>10/04/2019 16:30:17</publishTime>
+    </File>
+    <File Include="wwwroot/img/f992a5f7-53da-4ce8-a12b-dc502f1d70c3_ads1 - Copy.jpg">
+      <publishTime>10/04/2019 18:09:18</publishTime>
+    </File>
+    <File Include="wwwroot/img/f9ff2c2e-8b1c-413d-9bfa-40d6ce7da659_ads3.jpg">
+      <publishTime>10/08/2019 20:44:30</publishTime>
+    </File>
+    <File Include="wwwroot/img/fc8f75f6-160f-49e7-af39-7b2c168ee303_s10-1.jpg">
+      <publishTime>10/04/2019 17:40:59</publishTime>
+    </File>
+    <File Include="wwwroot/img/fd39a967-7b8f-4f0e-93ee-5659b5fd63b2_notbuk.jpg">
+      <publishTime>10/07/2019 20:53:45</publishTime>
+    </File>
+    <File Include="wwwroot/img/fe47af9b-d267-4a75-9aa4-5c7007d4ac15_ads3.jpg">
+      <publishTime>10/04/2019 18:16:49</publishTime>
+    </File>
+    <File Include="wwwroot/img/header.png">
+      <publishTime>09/09/2019 12:53:40</publishTime>
+    </File>
+    <File Include="wwwroot/img/hpOmen.jpg">
+      <publishTime>09/24/2019 12:50:06</publishTime>
+    </File>
+    <File Include="wwwroot/img/huawei-p30-1.jpg">
+      <publishTime>09/24/2019 12:38:10</publishTime>
+    </File>
+    <File Include="wwwroot/img/huaweiP30-2.jpg">
+      <publishTime>09/24/2019 12:38:56</publishTime>
+    </File>
+    <File Include="wwwroot/img/huaweiP30-3.jpg">
+      <publishTime>09/24/2019 12:39:15</publishTime>
+    </File>
+    <File Include="wwwroot/img/huaweiP30-4.jpg">
+      <publishTime>09/24/2019 12:40:03</publishTime>
+    </File>
+    <File Include="wwwroot/img/huaweiP30pro.jpg">
+      <publishTime>09/24/2019 00:27:19</publishTime>
+    </File>
+    <File Include="wwwroot/img/huaweiP30Proo.jpg">
+      <publishTime>09/24/2019 12:37:54</publishTime>
+    </File>
+    <File Include="wwwroot/img/ipadPro.jpg">
+      <publishTime>09/24/2019 12:45:30</publishTime>
+    </File>
+    <File Include="wwwroot/img/iphone.jpg">
+      <publishTime>09/10/2019 17:06:28</publishTime>
+    </File>
+    <File Include="wwwroot/img/iphone11pro.jpg">
+      <publishTime>09/19/2019 16:56:20</publishTime>
+    </File>
+    <File Include="wwwroot/img/iphone11proNews.webp">
+      <publishTime>09/19/2019 16:55:31</publishTime>
+    </File>
+    <File Include="wwwroot/img/iphonexsMax.jpg">
+      <publishTime>09/10/2019 16:48:13</publishTime>
+    </File>
+    <File Include="wwwroot/img/komputer.png">
+      <publishTime>09/10/2019 16:07:50</publishTime>
+    </File>
+    <File Include="wwwroot/img/lenovoTab.jpg">
+      <publishTime>09/24/2019 12:46:48</publishTime>
+    </File>
+    <File Include="wwwroot/img/lgTv.jpg">
+      <publishTime>09/24/2019 13:01:04</publishTime>
+    </File>
+    <File Include="wwwroot/img/logo.png">
+      <publishTime>09/09/2019 15:58:31</publishTime>
+    </File>
+    <File Include="wwwroot/img/logos.png">
+      <publishTime>10/02/2019 18:55:24</publishTime>
+    </File>
+    <File Include="wwwroot/img/newtv.jpg">
+      <publishTime>09/10/2019 18:31:48</publishTime>
+    </File>
+    <File Include="wwwroot/img/noImage.png">
+      <publishTime>10/05/2019 18:03:45</publishTime>
+    </File>
+    <File Include="wwwroot/img/notbuk.jpg">
+      <publishTime>09/10/2019 20:13:30</publishTime>
+    </File>
+    <File Include="wwwroot/img/panasonicTv.jpg">
+      <publishTime>09/24/2019 13:02:38</publishTime>
+    </File>
+    <File Include="wwwroot/img/s10-1.jpg">
+      <publishTime>09/17/2019 16:49:05</publishTime>
+    </File>
+    <File Include="wwwroot/img/s10-2.jpg">
+      <publishTime>09/17/2019 16:49:30</publishTime>
+    </File>
+    <File Include="wwwroot/img/s10-3.jpg">
+      <publishTime>09/17/2019 16:49:51</publishTime>
+    </File>
+    <File Include="wwwroot/img/s10-33.jpg">
+      <publishTime>09/17/2019 17:12:29</publishTime>
+    </File>
+    <File Include="wwwroot/img/s10-4.jpg">
+      <publishTime>09/17/2019 16:54:36</publishTime>
+    </File>
+    <File Include="wwwroot/img/s10.jpg">
+      <publishTime>09/10/2019 17:11:13</publishTime>
+    </File>
+    <File Include="wwwroot/img/samsung.jpg">
+      <publishTime>09/10/2019 16:04:55</publishTime>
+    </File>
+    <File Include="wwwroot/img/samsungNote10.jpg">
+      <publishTime>09/24/2019 00:23:54</publishTime>
+    </File>
+    <File Include="wwwroot/img/samsungTabE.jpg">
+      <publishTime>09/24/2019 12:44:12</publishTime>
+    </File>
+    <File Include="wwwroot/img/samsungWatch.jpg">
+      <publishTime>09/24/2019 13:08:37</publishTime>
+    </File>
+    <File Include="wwwroot/img/smartphone.jpeg">
+      <publishTime>09/10/2019 17:03:21</publishTime>
+    </File>
+    <File Include="wwwroot/img/smartwatch.jpg">
+      <publishTime>09/10/2019 20:32:07</publishTime>
+    </File>
+    <File Include="wwwroot/img/smartwatches.png">
+      <publishTime>09/10/2019 16:07:02</publishTime>
+    </File>
+    <File Include="wwwroot/img/sonyTv.jpg">
+      <publishTime>09/24/2019 13:01:36</publishTime>
+    </File>
+    <File Include="wwwroot/img/surface.jpg">
+      <publishTime>10/07/2019 20:52:07</publishTime>
+    </File>
+    <File Include="wwwroot/img/swift3.jpg">
+      <publishTime>09/24/2019 12:49:38</publishTime>
+    </File>
+    <File Include="wwwroot/img/tab.jpg">
+      <publishTime>09/10/2019 19:53:24</publishTime>
+    </File>
+    <File Include="wwwroot/img/tablets.png">
+      <publishTime>09/10/2019 16:06:25</publishTime>
+    </File>
+    <File Include="wwwroot/img/tv.png">
+      <publishTime>09/10/2019 16:05:50</publishTime>
+    </File>
+    <File Include="wwwroot/img/tv1.jpg">
+      <publishTime>09/10/2019 18:29:45</publishTime>
+    </File>
+    <File Include="wwwroot/img/userProfile.png">
+      <publishTime>09/21/2019 14:18:47</publishTime>
+    </File>
+    <File Include="wwwroot/img/XiaomiWatch.jpg">
+      <publishTime>09/24/2019 13:09:10</publishTime>
+    </File>
+    <File Include="wwwroot/js/Admin.js">
+      <publishTime>10/12/2019 14:46:07</publishTime>
+    </File>
+    <File Include="wwwroot/js/ajax.js">
+      <publishTime>10/18/2019 21:08:21</publishTime>
+    </File>
+    <File Include="wwwroot/js/main.js">
+      <publishTime>10/13/2019 15:58:22</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/0230c506-8b83-4f91-b3a9-cc608f429cd7_ebulfez-elcibey.jpg">
+      <publishTime>10/05/2019 16:10:21</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/0d175263-15d6-4f82-a028-79077add5b17_admin.png">
+      <publishTime>09/28/2019 18:37:09</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/0ecefba0-4c3f-48c8-9273-790925f37140_12049107_434059413446029_4083754009083329409_n.jpg">
+      <publishTime>10/01/2019 14:54:31</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/12e3d7d0-22c1-463f-8785-cd52f8d1af53_userProfile.png">
+      <publishTime>10/10/2019 19:00:27</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/14f1bafe-aac7-48b0-81a2-194d212eb623_admin.png">
+      <publishTime>09/28/2019 18:33:12</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/1cf86095-43e1-405a-8deb-02f0495c8eeb_userProfile.png">
+      <publishTime>09/29/2019 15:26:15</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/2635b90f-8132-48c8-8c5a-902c2951b514_admin.png">
+      <publishTime>10/12/2019 19:34:25</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/27adcec7-fc83-4c80-90fd-3cd1f52de5ab_admin.png">
+      <publishTime>10/07/2019 17:18:08</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/297076a6-4a01-4a30-a33c-79af5a7c2716_userProfile.png">
+      <publishTime>09/29/2019 15:41:40</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/2c3ef040-efd3-486b-be04-f914532f6547_admin.png">
+      <publishTime>09/28/2019 18:18:41</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/2da4b265-7ca6-4597-b95d-6ff2475f0101_hqdefault.jpg">
+      <publishTime>10/05/2019 18:12:24</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/330a9f00-a8e9-4578-af10-0373b2bba2cb_admin.png">
+      <publishTime>09/29/2019 15:58:20</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/3b032625-08b0-446b-b961-9eae3eb11a11_ebulfez-elcibey.jpg">
+      <publishTime>10/04/2019 19:22:21</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/534bd64c-7df0-4531-bfb9-95553d168abf_admin.png">
+      <publishTime>10/07/2019 17:18:01</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/6565a14f-cdf1-4b14-9e85-3476273eff46_ebulfez-elcibey.jpg">
+      <publishTime>10/05/2019 16:08:15</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/6b8a911c-f49d-4b50-8f17-1a9fed6572ac_12049107_434059413446029_4083754009083329409_n.jpg">
+      <publishTime>09/30/2019 13:52:55</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/8edf3196-d2aa-4731-92a6-e279f2bf34af_admin.png">
+      <publishTime>09/28/2019 18:30:56</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/9994c58e-ed78-49c8-b3f6-76e54b31e785_userProfile.png">
+      <publishTime>09/29/2019 16:13:44</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/9c628df3-5df0-412c-9aff-9007ff8b1efe_bmw.jpeg">
+      <publishTime>10/17/2019 21:02:51</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/9e73f4e0-c010-4b38-a25b-c680cc87598d_admin.png">
+      <publishTime>09/29/2019 16:16:18</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/a4057087-1e83-4298-9f5d-467f08ea70cb_logo.png">
+      <publishTime>09/28/2019 18:22:22</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/b450eb67-640b-4b93-a0a1-3321b7412f03_12049107_434059413446029_4083754009083329409_n.jpg">
+      <publishTime>10/01/2019 15:25:01</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/b561bab3-e0cf-4903-bcf7-5c3f2c71ec7e_12049107_434059413446029_4083754009083329409_n.jpg">
+      <publishTime>10/04/2019 20:50:47</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/b563809b-06a8-479a-81ca-d964203c8434_admin.png">
+      <publishTime>09/25/2019 13:47:54</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/c548861d-f56b-4cb3-9c3e-5bdbfff32eda_12049107_434059413446029_4083754009083329409_n.jpg">
+      <publishTime>10/01/2019 15:22:29</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/d19e8a4a-42d6-483e-9351-49ca6bd7b4a8_admin.png">
+      <publishTime>10/12/2019 19:30:17</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/d5b6c72c-7d85-4e15-a21f-aaa4b36ee57b_userProfile.png">
+      <publishTime>09/29/2019 16:21:32</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/d7967ca6-eae1-4894-8e4a-da6d75483835_admin.png">
+      <publishTime>09/26/2019 16:47:07</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/e1e20805-3f77-4a88-9481-19d53c1c60b7_userProfile.png">
+      <publishTime>09/29/2019 16:12:54</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/e40979f2-17f8-4143-bada-6e82eb2b3f37_500_F_203799879_2WmrPUQEwO3y7QDhbi0y8fi0IZNzXV1Q.jpg">
+      <publishTime>10/05/2019 17:31:52</publishTime>
+    </File>
+    <File Include="wwwroot/userImages/fa27108a-eb30-469e-b20f-bf82bba929f3_userProfile.png">
+      <publishTime>09/29/2019 16:08:53</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,79 @@
+﻿@model  adsVM
+@{
+    ViewData["Title"] = "CreateAds";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="adsEdit">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="ads-all-info-details">
+                    <div class="ads-edit-title text-center">
+                        <h4>Elan Yerləşdir</h4>
+                    </div>
+
+                    <div class="ads-categories">
+                        <form method="post" enctype="multipart/form-data">
+                            <div asp-validation-summary="ModelOnly"></div>
+                            <div class="ads-edit-category d-flex align-items-center">
+                                <label asp-for="@Model.Announcement.Model.Mark.CategoryId" class="ads-category-lbl d-flex justify-content-center align-items-center"><span>Kateqoriya:</span></label>
+                                <select asp-for="@Model.Announcement.Model.Mark.CategoryId" asp-items="@(new SelectList(ViewBag.Categories,"Id","Name"))" class="ads-product-category ads-product-category-for-create-ads">
+                                    <option value="">Seçin</option>
+                                </select>
+                                <label asp-for="@Model.Announcement.Model.MarkId" class="ads-mark-lbl d-flex justify-content-center align-items-center"><span>Marka :</span></label>
+                                <select asp-for="@Model.Announcement.Model.MarkId" class="ads-product-mark ads-product-mark-for-create-ads">
+                                    <option value="">Seçin</option>
+                                </select>
+                                <label asp-for="@Model.Announcement.ModelId" class="ads-model-lbl d-flex justify-content-center align-items-center"><span>Model :</span></label>
+                                <select asp-for="@Model.Announcement.ModelId" class="ads-product-model ads-product-model-for-create-ads">
+                                    <option value="">Seçin</option>
+                                </select>
+                            </div>
+                            <div class="ads-images d-flex align-items-center justify-content-center">
+                                <div class="ads-edit-main-image d-flex align-items-center">
+                                    <label asp-for="@Model.Announcement.Photo" class="ads-main-image-lbl d-flex justify-content-center align-items-center"><span>Əsas şəkili seç:</span></label>
+                                    <input asp-for="@Model.Announcement.Photo" class="ads-main-image-input">
+                                    <div class="ads-fake-input-div d-flex justify-content-center align-items-center">
+                                        <i class="fas fa-upload"></i>
+                                        <span>Yüklə</span>
+                                    </div>
+                                </div>
+                                <div class="ads-edit-other-images d-flex align-items-center">
+                                    <label asp-for="@Model.Announcement.AnsAllImages" class="ads-other-images-lbl d-flex justify-content-center align-items-center"><span>Şəkilləri seç:</span></label>
+                                    <input asp-for="@Model.Announcement.AnsAllImages" class="ads-other-images-input">
+                                    <div class="ads-fakt-input-images-div d-flex justify-content-center align-items-center">
+                                        <i class="fas fa-upload"></i>
+                                        <span>Yüklə</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="ads-cities-contact-number justify-content-center d-flex align-items-center ">
+                                <div class="ads-cities d-flex align-items-center">
+                                    <label asp-for="@Model.Announcement.CityId" class="ads-cities-lbl d-flex justify-content-center align-items-center"><span>Şəhəri Seç:</span></label>
+                                    <select asp-for="@Model.Announcement.CityId" asp-items="@(new SelectList(ViewBag.Cities,"Id","Name"))" class="ads-cities-select"></select>
+                                </div>
+                                <div class="ads-contact-name d-flex align-items-center">
+                                    <label asp-for="@Model.Announcement.Name" class="ads-contact-name-lbl d-flex justify-content-center align-items-center"><span>Başlıq:</span></label>
+                                    <input asp-for="@Model.Announcement.Name" class="ads-contact-name-input">
+                                </div>
+                            </div>
+
+                            <div class="ads-edit-details d-flex justify-content-center align-items-center">
+                                <label asp-for="@Model.Announcement.Info" class="ads-edit-details-lbl d-flex justify-content-center align-items-center"><span>Haqqında:</span></label>
+                                <textarea asp-for="@Model.Announcement.Info" class="ads-edit-details-info" cols="60" rows="3"></textarea>
+                            </div>
+                            <div class="ads-edit-price d-flex align-items-center justify-content-center">
+                                <label asp-for="@Model.Announcement.Price" class="ads-edit-price-lbl d-flex justify-content-center align-items-center"><span>Qiymət:</span></label>
+                                <input asp-for="@Model.Announcement.Price" class="ads-edit-price-input">
+                            </div>
+                            <div class="ads-edit-process d-flex justify-content-center align-items-center">
+                                <input class="ads-edit-btn" type="submit" value="Yerləşdir">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

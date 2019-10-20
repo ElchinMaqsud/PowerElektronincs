@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Announcement>
+
+@foreach (var ads in Model)
+{
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4" data-aos="fade-up" data-aos-duration="3000">
+        <div class="tab">
+            <div class="tab-img">
+                <img class="img-fluid" src="~/img/@ads.PhotoUrl" />
+            </div>
+
+            <div class="tab-name d-flex justify-content-between">
+                <h5>@ads.Name</h5>
+                <div class="tab-activity">
+                    
+                    <a class="about-icon" asp-controller="Home" asp-action="AdsDetails" asp-route-id="@ads.Id">
+                        Ətraflı
+                    </a>
+                </div>
+            </div>
+            <div class="tab-infos d-flex align-items-center justify-content-between">
+                <div class="tab-info d-flex">
+                    <small>@ads.City.Name, @ads.AddDate.Date.ToShortDateString()</small>
+                </div>
+                <div class="tab-price">
+                    <span>@ads.Price Azn</span>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+

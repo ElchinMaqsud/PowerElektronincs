@@ -1,0 +1,49 @@
+﻿@model  ICollection<Announcement>
+@{
+    ViewData["Title"] = "Announcements";
+    Layout = "~/Areas/PowerAdmin/Views/Shared/_AdminLayout.cshtml";
+}
+
+    <table class="table table-hover table-dark">
+        <thead>
+            <tr>
+                <th scope="col">Başlıq</th>
+                <th scope="col">Kateqoriya</th>
+                <th scope="col">Marka</th>
+                <th scope="col">Model</th>
+                <th scope="col">Şəkil</th>
+                <th scope="col">Haqqında</th>
+                <th scope="col">Qiyməti</th>
+                <th scope="col">Şəhər</th>
+                <th scope="col">Adı</th>
+                <th scope="col">Operator Nömrəsi</th>
+                <th scope="col">Nömrəsi</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var ads in Model)
+            {
+            <tr>
+                <td>@ads.Name</td>
+                <td>@ads.Model.Mark.Category.Name</td>
+                <td>@ads.Model.Mark.Name</td>
+                <td>@ads.Model.Name</td>
+                <td><img style="object-fit:cover;width:150px;height:150px;" src="~/img/@ads.PhotoUrl"/></td>
+                <td>@ads.Info</td>
+                <td>@ads.Price</td>
+                <td>@ads.City.Name</td>
+                <td>@ads.Name</td>
+                <td>@ads.User.Operator.OperatorNumber</td>
+                <td>@ads.User.PhoneNumber</td>
+                <td><a asp-area="PowerAdmin" asp-controller="Dashboard" asp-action="AdsDetails" asp-route-id="@ads.Id" class="btn btn-success"><i style="color:white;" class="fas fa-info"></i></a></td>
+
+            </tr>
+
+            }
+
+
+        </tbody>
+    </table>
+

@@ -1,0 +1,7 @@
+﻿@model IEnumerable<Mark>
+
+<option>Seçin</option>
+@foreach (var mark in Model)
+{
+    <option value="@mark.Id">@mark.Name</option>
+}

@@ -1,0 +1,103 @@
+﻿@model  Announcement
+@{
+    ViewData["Title"] = "DeleteAds";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <section id="phoneDetails">
+        <div class="container">
+            <div class="row phone-details-row1">
+                <div class="phone-zoom-img d-none">
+                    <div class="phone-img">
+                        <img style="object-fit:cover;" src="~/img/">
+                        <div class="image-close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div style="height:548px;" class="phone-ads-main-image">
+                        <img class="img-fluid" src="~/img/@Model.PhotoUrl">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                    <div class="row phone-details-row2">
+                        @foreach (var img in Model.AnsImages)
+                        {
+                            <div class="col-6">
+                                <div style="height:320px;" class="phone-ads-image">
+                                    <img class="img-fluid" src="~/img/@img.AdsPhotoUrl">
+                                </div>
+                            </div>
+                        }
+
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 order-1  col-sm-6 order-sm-1  col-md-6 col-lg-3 order-md-0">
+                    <div class="ads-all-details">
+                        <div class="ads-price d-flex justify-content-center align-items-center">
+                            <h5>@Model.Price<small>AZN</small></h5>
+                        </div>
+                        <div class="ads-details-first">
+                            <div class="ads-contact-info d-flex justify-content-around">
+                                <h5>@Model.User.Operator.OperatorNumber-@Model.User.PhoneNumber</h5>
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="ads-contact-name">
+                                <h5>@Model.User.Firstname</h5>
+                            </div>
+                        </div>
+
+
+                        <div class="ads-details-second d-flex flex-column align-items-center">
+                            <h5>Elanın Baxış Sayı: @Model.AnnouncementCount</h5>
+                            <h5>Yerləşdirilib: @Model.AddDate.Date.ToShortDateString();</h5>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-12 order-0 order-sm-0  col-sm-6 col-md-6 col-lg-9 order-md-1">
+                    <div class="ads-all-details-2">
+                        <div class="ads-product-name">
+                            <h2>@Model.Name</h2>
+                        </div>
+                        <div class="ads-product-details">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td><span>Şəhər</span></td>
+                                        <td>@Model.City.Name</td>
+                                    </tr>
+                                    <tr>
+                                        <td><span>Marka</span></td>
+                                        <td>@Model.Model.Mark.Name</td>
+
+                                    </tr>
+                                    <tr>
+                                        <td><span>Model</span></td>
+                                        <td>@Model.Model.Name</td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>@Model.Info</p>
+                        </div>
+                    </div>
+
+                </div>
+              
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <form method="post" enctype="multipart/form-data">
+                        <input class="btn btn-danger btn-block" type="submit" value="Sil" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+

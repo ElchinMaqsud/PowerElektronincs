@@ -1,0 +1,95 @@
+﻿ @model  UserProfileVM
+@{
+    ViewData["Title"] = "UserProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <section style="padding:70px;" id="userProfile">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="userProfile-details d-flex">
+                        <div class="userProfile-Image " style="width:270px!important">
+                            <img style="height:76%!important" class="img-fluid" src="~/userImages/@Model.LoggedUser.PhotoUrl">
+                            <div class="userProfile-changes text-center">
+                                <button class="userProfile-editBtn"><a asp-controller="Account" asp-action="EditProfile" asp-route-id="@Model.LoggedUser.Id">Profili Yenilə</a></button>
+                            </div>
+                        </div>
+                        <div class="userProfile-info">
+                            <div class="user-name d-flex align-items-center ">
+                                <h5>Ad:</h5>
+                                <span>@Model.LoggedUser.Firstname</span>
+                            </div>
+                            <div class="user-surname d-flex align-items-center ">
+                                <h5>Soyad:</h5>
+                                <span>@Model.LoggedUser.Lastname</span>
+                            </div>
+                            <div class="user-userName d-flex align-items-center ">
+                                <h5>İstifadəçi Adı:</h5>
+                                <span>@Model.LoggedUser.UserName</span>
+                            </div>
+                            <div class="user-birthdate d-flex align-items-center ">
+                                <h5 style="width:160px!important">Qeydiyyat Tarixi:</h5>
+                                <span>@Model.LoggedUser.RegisterDate.Date.ToShortDateString()</span>
+                            </div>
+                            <div class="user-Email d-flex">
+                                <h5>Email:</h5>
+                                <span>@Model.LoggedUser.Email</span>
+                            </div>
+                            <div class="user-phoneNumber d-flex">
+                                <h5>Nömrə:</h5>
+                                <span>@Model.LoggedUser.Operator.OperatorNumber - @Model.LoggedUser.PhoneNumber</span>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row user-ads ">
+                @foreach (var ads in Model.Announcements)
+                {
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4" data-aos="zoom-in" data-aos-duration="3000">
+                        <div class="smartphone">
+                            <div style="position:relative" class="smartphone-img">
+                                <img class="img-fluid" src="~/img/@ads.PhotoUrl " />
+                                <div style="position:absolute;top:0;right:0;" class="ads-change-btns d-flex">
+                                    <a asp-controller="Account" asp-action="EditAds" asp-route-id="@ads.Id" style="cursor:pointer;margin-right:3px;text-decoration:none">
+                                        <div class="ads-edit-div btn btn-success d-flex justify-content-center align-items-center">
+                                            <i class="fas fa-pen"></i>
+                                        </div>
+                                    </a>
+                                    <a asp-controller="Account" asp-action="DeleteAds" asp-route-id="@ads.Id" style="cursor:pointer;text-decoration:none;">
+                                        <div class="ads-delete-div btn btn-danger d-flex justify-content-center align-items-center">
+                                            <i class="fas fa-trash"></i>
+                                        </div>
+                                    </a>
+
+                                </div>
+
+
+                            </div>
+
+                            <div class="smartphone-name d-flex justify-content-between align-items-center">
+                                <h5>@ads.Name</h5>
+                                <div class="smartphone-activity">
+                                    <a class="about-icon" asp-controller="Home"asp-action="AdsDetails" asp-route-id="@ads.Id"> Ətraflı</a>
+                                </div>
+                            </div>
+                            <div class="smartphone-infos d-flex align-items-center justify-content-between">
+                                <div class="smartphone-info d-flex">
+                                    <small>@ads.City.Name, @ads.AddDate.Date.ToShortDateString();</small>
+                                    <i class="fab fa-vuejs"></i>
+                                </div>
+                                <div class="smartphone-price">
+                                    <span>@ads.Price Azn</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+              
+            </div>
+        </div>
+    </section>

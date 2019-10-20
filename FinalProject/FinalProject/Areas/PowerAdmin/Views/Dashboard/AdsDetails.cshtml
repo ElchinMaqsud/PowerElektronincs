@@ -1,0 +1,102 @@
+﻿@model Announcement
+@{
+    ViewData["Title"] = "AdsDetails";
+    Layout = "~/Areas/PowerAdmin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<section id="phoneDetails">
+    <div class="container">
+        <div class="row phone-details-row1">
+            <table class="table table-hover table-dark">
+                <thead>
+                    <tr>
+                        <th scope="col">Əsas Şəkil</th>
+                        <th scope="col">Əlavə Şəkillər</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="~/img/@Model.PhotoUrl" style="width:200px;height:200px;object-fit:cover" /></td>
+                        @foreach (var img in Model.AnsImages)
+                        {
+                            <td><img src="~/img/@img.AdsPhotoUrl" style="width:200px;height:200px;object-fit:cover" /></td>
+                        }
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="row">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th scope="col">Başlıq</th>
+                        <th scope="col">Kateqoriya</th>
+                        <th scope="col">Marka</th>
+                        <th scope="col">Model</th>
+                        <th scope="col">Haqqında</th>
+                        <th scope="col">Qiyməti</th>
+                        <th scope="col">Şəhər</th>
+                        <th scope="col">Adı</th>
+                        <th scope="col">Operator Nömrəsi</th>
+                        <th scope="col">Nömrəsi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Model.Name</td>
+                        <td>@Model.Model.Mark.Category.Name</td>
+                        <td>@Model.Model.Mark.Name</td>
+                        <td>@Model.Model.Name</td>
+                        <td>@Model.Info</td>
+                        <td>@Model.Price</td>
+                        <td>@Model.City.Name</td>
+                        <td>@Model.Name</td>
+                        <td>@Model.User.Operator.OperatorNumber</td>
+                        <td>@Model.User.PhoneNumber</td>
+
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        @if (Model.IsConfirmed == false)
+        {
+            <div class="row">
+
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Təsdiqlə</th>
+                            <th scope="col">Xeyr</th>
+                        </tr>
+
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><a class="btn btn-success" style="display:block" asp-area="PowerAdmin" asp-controller="Dashboard" asp-action="ConfirmAnnouncement" asp-route-id="@Model.Id"><i style="color:white;font-size:22px;" class="far fa-check-circle"></i></a></td>
+                            <td><a class="btn btn-danger" style="display:block" asp-area="PowerAdmin" asp-controller="Dashboard" asp-action="DeleteWrongAds" asp-route-id="@Model.Id"><i style="color:white;font-size:22px;" class="far fa-times-circle"></i></a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        }
+        @if (Model.IsConfirmed == true)
+        {
+    <div class="col-12">
+        <a style="display:block" asp-area="PowerAdmin" asp-controller="Dashboard" asp-action="ConfirmedAnnouncements" class="btn btn-success"><i style="color:white;" class="far fa-arrow-alt-circle-left"></i>Geriyə</a>
+    </div>
+        }
+        else
+        {
+    <div class="col-12">
+        <a style="display:block" asp-area="PowerAdmin" asp-controller="Dashboard" asp-action="DontConfirmedAnnouncements" class="btn btn-success"><i style="color:white;" class="far fa-arrow-alt-circle-left"></i>Geriyə</a>
+    </div>
+
+        }
+
+
+
+    </div>
+</section>
+

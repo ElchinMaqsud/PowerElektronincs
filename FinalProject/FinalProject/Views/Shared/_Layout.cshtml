@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PowerElectronics</title>
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,500,700&display=swap" rel="stylesheet">
+    <link rel="icon" href="~/img/logos.png" />
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+<body>
+    <!--Main Header Start-->
+    <header id="main-header" class="d-none d-sm-none d-md-block">
+        <div class="container-fluid p-0">
+            <div class="row">
+                <div class="col-4 header-top">
+                    <div class="header-main-navbar d-flex align-items-center">
+                        <ul class="d-flex align-items-center m-0 p-3">
+                            <li><a asp-controller="Home" asp-action="Index">Ana Səhifə</a></li>
+                            <li><a asp-controller="Home" asp-action="News">Xəbərlər</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-4 header-top d-flex justify-content-center">
+                    <div class="header-logo d-flex justify-content-center align-items-center">
+                        <a href=""><img src="~/img/header.png" /></a>
+
+                    </div>
+                </div>
+                <div class="col-4 header-top d-flex justify-content-center align-items-center">
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <div class="header-login">
+
+                            <a style="text-decoration:none;color:black;" asp-controller="Account" asp-action="Login"><i style="font-size:17px!important; color:#00A98D;" class="fas fa-user"></i>Daxil Ol</a>
+
+                        </div>
+                        <div class="header-login">
+
+                            <a style="text-decoration:none;color:black;" asp-controller="Account" asp-action="Register"><i style="font-size:17px!important;color:#303E48;" class="fas fa-user-edit"></i>Qeydiyyat</a>
+
+                        </div>
+                    }
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        if (!User.IsInRole("Admin"))
+                        {
+                            <div class="header-login">
+                                <a style="text-decoration:none;color:black;" asp-controller="Account" asp-action="UserProfile"><i style="font-size:17px!important;color:#00A98D;" class="fas fa-user"></i>Profilim</a>
+                            </div>
+
+                            <div class="header-login">
+                                <a style="text-decoration:none;color:black;" asp-controller="Account" asp-action="Logout">Çıxış<i style="font-size:17px!important;color:#303E48;" class="fas fa-sign-out-alt"></i></a>
+                            </div>
+
+                            <div class="header-advertisement">
+
+                                <a style="text-decoration:none;color:black;" asp-controller="Account" asp-action="CreateAds">Elan Yerləşdir<i style="font-size:17px!important; color:gold;" class="fas fa-plus-circle"></i></a>
+
+                            </div>
+                        }
+
+
+
+
+
+
+
+
+
+                    }
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--Main Header End-->
+    <!--Responsive-Header-Start-->
+    <header id="responsive-header" class="d-xs-block d-md-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 p-0">
+                    <div class="responsive-menu-header">
+                        <div class="header-icon">
+                            <i class="fas fa-bars"></i>
+                        </div>
+
+
+                    </div>
+
+                </div>
+                <div class="col-3 p-0 d-flex justify-content-center">
+                    <div class="responsive-logo ">
+                        <img class="img-fluid" src="~/img/header.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-6 d-flex justify-content-end align-items-start">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+
+                        if (!User.IsInRole("Admin"))
+                        {
+                            <div class="responsive-login ">
+                                <button class="responsive-login-btn d-flex justify-content-center align-items-center">
+                                    <a asp-controller="Account" asp-action="UserProfile"> <i class="fas fa-user"></i></a>
+                                </button>
+                            </div>
+                            <div class="responsive-ads ">
+                                <button class="responsive-ads-btn d-flex justify-content-center align-items-center">
+                                    <a asp-controller="Account" asp-action="CreateAds"><i class="fas fa-plus-circle"></i></a>
+                                </button>
+                            </div>
+                        }
+
+
+                    }
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <div class="responsive-login ">
+                            <button class="responsive-login-btn d-flex justify-content-center align-items-center">
+                                <a asp-controller="Account" asp-action="Login"> <i class="fas fa-user"></i></a>
+                            </button>
+                        </div>
+                        <div class="responsive-ads ">
+                            <button class="responsive-ads-btn d-flex justify-content-center align-items-center">
+                                <a asp-controller="Account" asp-action="Register"><i class="fas fa-user-plus"></i></a>
+                            </button>
+                        </div>
+                    }
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="responsive-navbar d-none">
+
+        <div class="responsive-close-icon d-none">
+            <i class="fas fa-window-close"></i>
+        </div>
+        <ul class="p-0 d-flex flex-column justify-content-center align-items-center">
+            <li><i class="fas fa-home"></i><a asp-controller="Home" asp-action="Index">Ana Səhifə</a></li>
+            <li><i class="far fa-bookmark"></i><a asp-controller="Home" asp-action="Index"> Bütün Elanlar</a></li>
+            <li><i class="far fa-newspaper"></i><a asp-controller="Home" asp-action="News">Xəbərlər</a></li>
+        </ul>
+        <div class="responsive-logo-name text-center">
+            <p>Power<span>Electronics</span></p>
+        </div>
+
+        @if (!User.Identity.IsAuthenticated)
+        {
+            <div class="responsive-logo-name d-flex justify-content-center align-items-center">
+                <a class="d-flex justify-content-center align-items-center" style="text-decoration:none;width:100px;height:40px;background:#00A98D;color:white;margin-right:10px;" asp-controller="Account" asp-action="Login"><i style="font-size:14px;color:white;margin-right:3px;" class="far fa-user"></i>Daxil Ol</a>
+                <a class="d-flex justify-content-center align-items-center" style="text-decoration:none;width:100px;height:40px;background:#1428A0;color:white" asp-controller="Account" asp-action="Register"><i style="font-size:14px;color:white;margin-right:3px;" class="fas fa-user-plus"></i>Qeydiyyat</a>
+            </div>
+
+        }
+        @if (User.Identity.IsAuthenticated)
+        {<div class="responsive-logo-name d-flex justify-content-center align-items-center">
+                <a class="d-flex justify-content-center align-items-center" style="text-decoration:none;width:100px;height:40px;background:#00A98D;color:white;margin-right:10px;" asp-controller="Account" asp-action="UserProfile"><i style="font-size:14px;color:white;margin-right:3px;" class="far fa-user"></i>Profilim</a>
+                <a class="d-flex justify-content-center align-items-center" style="text-decoration:none;width:100px;height:40px;background:#1428A0;color:white" asp-controller="Account" asp-action="Logout"><i style="font-size:14px;color:white;margin-right:3px;" class="fas fa-sign-out-alt"></i>Çıxış</a>
+            </div>
+        }
+
+
+
+
+    </div>
+    <!--Responsive-Header-End-->
+    <!--Category-Start-->
+    <!--Slider-End-->
+   
+    @RenderBody();
+
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center col-sm-12 d-sm-flex justify-content-sm-center  col-md-4 d-md-block ">
+                    <div class="category">
+                        <h5>Elanlar</h5>
+                        <ul class="p-0">
+                            <li><a asp-controller="Home" asp-action="SmartPhones">Telefon</a></li>
+                            <li><a asp-controller="Home" asp-action="Tabs">Planşet</a></li>
+                            <li><a asp-controller="Home" asp-action="Notebook">Kompüter</a></li>
+                            <li><a asp-controller="Home" asp-action="Tv">Televizor</a></li>
+                            <li><a asp-controller="Home" asp-action="Smartwatch">Smartwatch</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center col-sm-12 d-sm-flex justify-content-sm-center  col-md-4 d-md-block">
+                    <div class="site-rules">
+                        <h5>Power<span>Electronics</span></h5>
+                        <p> © Designed by Elchin Rabbani in 2019</p>
+                    </div>
+                </div>
+                <div class="col-12 d-flex justify-content-center col-sm-12 d-sm-flex justify-content-sm-center  col-md-4 d-md-block">
+
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <div class="user">
+                            <h5 style="color:white;">Xoş Gəlmisiniz</h5>
+                            <div style=" width:130px!important;height:40px!important;background:#1428A0" class="user-login d-flex justify-content-center align-items-center">
+                                <a style="text-decoration:none;color:white;" asp-controller="Account" asp-action="Login">Profilim <i style="font-size:17px;color:white;margin-left:3px;" class="far fa-user"></i></a>
+                            </div>
+                            <div style=" width:130px!important; height:40px!important; background:#00A98D" class="user-register d-flex justify-content-center align-items-center">
+                                <a style="text-decoration:none;color:white;" asp-controller="Account" asp-action="Logout">Çıxış<i style="font-size:17px;color:white;margin-left:3px;" class="fas fa-sign-out-alt"></i></a>
+                            </div>
+                            <div style=" width:130px!important; height:40px!important; background:#303E48" class="user-register d-flex justify-content-center align-items-center">
+                                <a style="text-decoration:none;color:white;" asp-controller="Account" asp-action="CreateAds">Elan Yerləşdir<i style="font-size:17px;color:white;margin-left:3px;" class="fas fa-plus-circle"></i></a>
+                            </div>
+
+                        </div>
+
+                    }
+                    @if (!User.Identity.IsAuthenticated)
+                    {
+                        <div class="user">
+                            <h5 style="color:white;">Səhifəyə Giriş</h5>
+                            <div style=" width:130px!important;height:40px!important;background:#1428A0" class="user-login d-flex justify-content-center align-items-center">
+                                <a style="text-decoration:none;color:white;" asp-controller="Account" asp-action="Login"> <i style="font-size:17px;color:white;" class="far fa-user"></i>Daxil Ol</a>
+                            </div>
+                            <div style=" width:130px!important; height:40px!important; background:#00A98D" class="user-register d-flex justify-content-center align-items-center">
+                                <a style="text-decoration:none;color:white;" asp-controller="Account" asp-action="Register"><i style="font-size:17px;color:white;" class="far fa-user"></i>Qeydiyyat</a>
+                            </div>
+
+                        </div>
+                    }
+
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/3c49f72b93.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="~/js/main.js"></script>
+    <script src="~/js/ajax.js"></script>
+
+</body>
+</html>
+

@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Announcement>
+
+
+@foreach (var adsNotebook in Model)
+{
+    <div class="col-12 col-sm-12 col-md-6 col-lg-4" data-aos="flip-up" data-aos-duration="3000">
+        <div class="comp">
+            <div class="comp-img">
+                <img class="img-fluid" src="~/img/@adsNotebook.PhotoUrl  " />
+            </div>
+
+            <div class="comp-name d-flex justify-content-between">
+                <h5>@adsNotebook.Name</h5>
+                <div class="comp-activity">
+                    
+                    <a class="about-icon" asp-controller="Home" asp-action="AdsDetails" asp-route-id="@adsNotebook.Id">
+                        Ətraflı
+                    </a>
+                </div>
+            </div>
+            <div class="comp-infos d-flex align-items-center justify-content-between">
+                <div class="comp-info d-flex">
+                    <small>@adsNotebook.City.Name, @adsNotebook.AddDate.Date.ToShortDateString()</small>
+                    
+                </div>
+                <div class="comp-price">
+                    <span>@adsNotebook.Price Azn</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+}

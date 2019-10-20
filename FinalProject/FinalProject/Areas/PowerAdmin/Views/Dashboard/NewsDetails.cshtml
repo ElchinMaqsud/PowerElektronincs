@@ -1,0 +1,28 @@
+﻿@model  News
+@{
+    ViewData["Title"] = "NewsDetails";
+    Layout = "~/Areas/PowerAdmin/Views/Shared/_AdminLayout.cshtml";
+}
+
+    <table class="table table-dark table-hover">
+        <thead>
+            <tr>
+                <th scope="col">Başlıq</th>
+                <th scope="col">Şəkil</th>
+                <th scope="col">Haqqında</th>
+                <th scope="col">Yerləşdirmə Tarixi</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr>
+               <td>@Model.Title</td>
+                <td><img style="width:150px;height:150px;object-fit:cover;" src="~/img/@Model.PhotoUrl"/></td>
+                <td>@Model.Info</td>
+                <td>@Model.AddDate.Date.ToShortDateString()</td>
+                <td><a class="btn btn-primary btn-block" style="color:white;text-decoration:none;" asp-area="PowerAdmin" asp-controller="Dashboard" asp-action="News">Geriyə Qayıt</a></td>
+                <td><a class="btn btn-warning btn-block" style="color:white;text-decoration:none;" asp-area="PowerAdmin" asp-controller="Dashboard" asp-action="EditNews" asp-route-id="@Model.Id">Yenilə</a></td>
+                <td><a class="btn btn-danger btn-block" style="color:white;text-decoration:none;" asp-area="PowerAdmin" asp-controller="Dashboard" asp-action="DeleteNews" asp-route-id="@Model.Id">Sil</a></td>
+            </tr>
+        </tbody>
+    </table>

@@ -1,0 +1,82 @@
+﻿    @model  RegisterVM
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+   
+   
+
+    <section style="padding:70px;" id="userRegister">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h5>Qeydiyyat</h5>
+                </div>
+                <div class="col-12">
+                    <div class="userRegister-all">
+                        <form method="post" class="d-flex flex-column" enctype="multipart/form-data">
+                            <div asp-validation-summary="ModelOnly"></div>
+                            <div class="create-name d-flex">
+                                <label asp-for="FirstName" for="">Ad:</label>
+                                <input asp-for="FirstName" type="text">
+                            </div>
+                            <span asp-validation-for="FirstName"></span>
+                            <div class="create-surname d-flex ">
+                                <label asp-for="LastName" for="">Soyad:</label>
+                                <input asp-for="LastName" type="text">
+                            </div>
+                            <span asp-validation-for="LastName"></span>
+                            <div class="create-username d-flex ">
+                                <label asp-for="UserName">İstifadəçi Adı:</label>
+                                <input asp-for="UserName" type="text">
+                            </div>
+                            <span asp-validation-for="UserName"></span>
+                            <div class="create-password d-flex">
+                                <label asp-for="Password">Şifrə</label>
+                                <input asp-for="Password">
+                            </div>
+                            <span asp-validation-for="Password"></span>
+                            <div class="create-confirm-password d-flex">
+                                <label asp-for="ConfirmPassword">Şifrəni Təsdiqlə </label>
+                                <input asp-for="ConfirmPassword">
+                            </div>
+                            <span asp-validation-for="ConfirmPassword"></span>
+                            <div class="create-birthdate d-flex ">
+                                <label asp-for="Birthdate">Doğum Tarixi:</label>
+                                <input asp-for="Birthdate" class="create-input-date" type="date">
+                                <span asp-validation-for="Birthdate"></span>
+                            </div>
+                            <div class="create-email d-flex ">
+                                <label asp-for="Email">Email:</label>
+                                <input asp-for="Email" type="text">
+                            </div>
+                            <span asp-validation-for="Email"></span>
+                            <div class="create-phoneNumber d-flex">
+                                <label asp-for="PhoneNumber">Nömrə:</label>
+                                <select asp-for="OperatorId" asp-items="@(new SelectList(ViewBag.Operators,"Id","OperatorNumber"))" class="create-phoneNumber-operators"></select>
+                                <input maxlength="7" asp-for="PhoneNumber" class="create-userNumberInput" type="text">
+                            </div>
+                            <span asp-validation-for="PhoneNumber"></span>
+                            <div class="create-userImage d-flex ">
+                                <label asp-for="Photo">Profil Şəkli:</label>
+                                <input asp-for="Photo" class="create-userImageInput" type="file">
+                                <div class="create-imageFakeDiv d-flex justify-content-center align-items-center">
+                                    <i class="fas fa-upload"></i>
+                                </div>
+                                <span asp-validation-for="Photo"></span>
+                            </div>
+                            <div class="create-confirm">
+                                <input class="create-confirm-btn d-flex justify-content-center align-items-center" type="submit" value="Qeydiyyatdan Keç">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+

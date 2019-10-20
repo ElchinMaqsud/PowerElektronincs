@@ -1,0 +1,19 @@
+﻿@model AdminPropertiesVM
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/PowerAdmin/Views/Shared/_AdminLayout.cshtml";
+}
+
+    <div style="margin-bottom:20px;" class="admin-welcome-panel d-flex flex-column">
+        <h1 class="text-center">Xoş Gəlmisən Admin <i class="far fa-smile"></i></h1>
+        <a asp-area="PowerAdmin" asp-controller="Dashboard" asp-action="LogOutAdmin" style="color:white;" class="btn btn-success d-flex justify-content-center align-items-center"><i style="color:white;font-size:20px;" class="fas fa-sign-out-alt"></i>Çıxış</a>
+    </div>
+
+
+<h3 style="font-weight:bold"> Elanların Sayı: @Model.Announcements.Count()</h3>
+<h3>İstifadəçilərin Sayı: @Model.Users.Count()</h3>
+<h3>Modellərin Sayı: @Model.Models.Count()</h3>
+
+
+
+

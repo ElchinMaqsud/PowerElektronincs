@@ -1,0 +1,33 @@
+﻿@model Model
+@{
+    ViewData["Title"] = "CreateModel";
+    Layout = "~/Areas/PowerAdmin/Views/Shared/_AdminLayout.cshtml";
+}
+
+    <div class="col-12 d-flex justify-content-center" >
+        <form method="post">
+            <div asp-validation-summary="ModelOnly"></div>
+            <div class="d-flex flex-column align-items-center">
+                <label style="width:250px;height:70px;background-color:black;color:white;" asp-for="@Model.Mark.CategoryId" class="d-flex justify-content-center align-items-center"><span>Kateqoriya:</span></label>
+                <select style="width:250px;height:40px;border:none;" asp-for="@Model.Mark.CategoryId" asp-items="@(new SelectList(ViewBag.Categories,"Id","Name"))" id="category-for-create-model">
+                    <option value="">Seçin</option>
+                </select>
+                <span asp-validation-for="@Model.Mark.CategoryId"></span>
+                <label style="width:250px;height:70px;background-color:black;color:white;margin-top:20px;" asp-for="@Model.MarkId" class="ads-mark-lbl d-flex justify-content-center align-items-center"><span>Marka :</span></label>
+                <select style="width:250px;height:40px;border:none;" asp-for="@Model.MarkId" id="mark-for-create-model">
+                    <option value="">Seçin</option>
+                </select>
+                <span asp-validation-for="@Model.MarkId"></span>
+                <label style="width:250px;height:70px;background-color:black;color:white;margin-top:20px;" asp-for="@Model.Name" class="ads-model-lbl d-flex justify-content-center align-items-center"><span>Model :</span></label>
+                <input style="width:250px;height:40px;border:none;" asp-for="@Model.Name" />
+                <span asp-validation-for="@Model.Name"></span>
+            </div>
+            <div class="col-12 mt-4">
+                <input style="display:block!important;width:250px;height:40px;background-color:forestgreen; color:white;border:none;cursor:pointer;" type="submit" value="Yarat" />
+            </div>
+
+
+        </form>
+    </div>
+
+

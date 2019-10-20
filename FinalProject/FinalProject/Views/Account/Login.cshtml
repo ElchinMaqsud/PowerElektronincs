@@ -1,0 +1,44 @@
+﻿@model LoginVM
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@if (TempData["EmailConfirm"] != null)
+{
+    <p style="color:#38AA34;font-size:18px;" class="text-center">Hesabınızı Təsdiqləyin!</p>
+}
+}
+@if (TempData["Verify"] != null)
+{
+    <p style="color:#38AA34;font-size:18px;" class="text-center">Hesabınız Təsdiqləndi!</p>
+}
+<section style="padding:70px;" id="userLogin">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h5>Profilə Giriş</h5>
+            </div>
+            <div class="col-12 d-flex justify-content-center align-items-center">
+                <form method="post" asp-controller="Account" asp-action="Login">
+                    <div asp-validation-summary="ModelOnly"></div>
+                    <div class="user-login-username d-flex">
+                        <label asp-for="UserName" for="">İstifadəçi Adı</label>
+                        <input type="text" asp-for="UserName">
+                    </div>
+                    <span asp-validation-for="UserName"></span>
+                    <div class="user-login-password d-flex">
+                        <label asp-for="Password">Şifrə</label>
+                        <input asp-for="Password">
+                    </div>
+                    <span asp-validation-for="Password"></span>
+                    <div class="user-login-confirm-forgetPass d-flex justify-content-center align-items-center">
+                        <input style="width:80px;height:40px;background:#38AA34;border:none;outline:none; color:white;" type="submit" value="Daxil Ol" />
+                        <a asp-controller="Account" asp-action="ForgetPassword" class="forgetPasswordBtn">Şifrəni Unutdun?</a>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
+

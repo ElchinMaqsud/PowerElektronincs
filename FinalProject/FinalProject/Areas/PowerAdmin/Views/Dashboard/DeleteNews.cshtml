@@ -1,0 +1,32 @@
+﻿@model  News
+@{
+    ViewData["Title"] = "DeleteNews";
+    Layout = "~/Areas/PowerAdmin/Views/Shared/_AdminLayout.cshtml";
+}
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-6">
+                <form method="post">
+                    <div class="form-group">
+                        <label asp-for="Title"></label>
+                        <input class="form-control" asp-for="Title" />
+
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Photo"></label>
+                        <img style="width:200px;height:200px;object-fit:cover;" src="~/img/@Model.PhotoUrl"/>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Info"></label>
+                        <input class="form-control" asp-for="Info" />
+                    </div>
+                    <input class="btn btn-danger btn-block" type="submit" value="Sil" />
+                </form>
+                <a class="btn btn-primary btn-block mt-3" asp-area="PowerAdmin" asp-controller="Dashboard" asp-action="News">Geriyə</a>
+
+            </div>
+        </div>
+    </div>
+

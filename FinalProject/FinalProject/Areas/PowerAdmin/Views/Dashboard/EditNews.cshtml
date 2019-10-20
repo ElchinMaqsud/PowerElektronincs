@@ -1,0 +1,35 @@
+﻿@model News
+@{
+    ViewData["Title"] = "EditNews";
+    Layout = "~/Areas/PowerAdmin/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-6">
+            <form method="post" enctype="multipart/form-data">
+                <div asp-validation-summary="ModelOnly"></div>
+                <div class="form-group">
+                    <label asp-for="@Model.Title"></label>
+                    <input class="form-control" asp-for="@Model.Title" />
+                    <span asp-validation-for="@Model.Title"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.Info"></label>
+                    <input class="form-control" asp-for="@Model.Info" />
+                    <span asp-validation-for="@Model.Info"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="@Model.Photo"></label>
+                    <input class="form-control" asp-for="@Model.Photo" />
+                    <span asp-validation-for="@Model.Photo"></span>
+                </div>
+                <input class="btn btn-success btn-block" type="submit" value="Yenilə" />
+            </form>
+        </div>
+
+    </div>
+</div>
+
+

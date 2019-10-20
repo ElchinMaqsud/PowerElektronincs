@@ -1,0 +1,38 @@
+﻿@model  LoginVM
+@{
+    ViewData["Title"] = "AdminLogin";
+     Layout = "~/Areas/PowerAdmin/Views/Shared/_AdminLayout.cshtml";
+}
+
+    <section style="padding:70px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h5>Admin Giriş</h5>
+                </div>
+                <div class="col-12 d-flex justify-content-center align-items-center">
+                    <form method="post">
+                        <div asp-validation-summary="ModelOnly"></div>
+                        <div class="user-login-username d-flex flex-column">
+                            <label asp-for="UserName">İstifadəçi Adı</label>
+                            <input type="text" asp-for="UserName">
+                        </div>
+                        <span asp-validation-for="UserName"></span>
+                        <div class="user-login-password d-flex flex-column">
+                            <label asp-for="Password">Şifrə</label>
+                            <input asp-for="Password">
+                        </div>
+                        <span asp-validation-for="Password"></span>
+                        <div class="admin-log mt-2">
+                            <input class="btn btn-success" style="background:#38AA34;border:none;outline:none; color:white;display:inline!important" type="submit" value="Daxil Ol" />
+                            <a asp-area="PowerAdmin" asp-controller="Dashboard" asp-action="AdminForgetPassword" class="btn btn-warning" style="display:inline!important">Şifrəni Unutdum?</a>
+                        </div>
+
+
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+

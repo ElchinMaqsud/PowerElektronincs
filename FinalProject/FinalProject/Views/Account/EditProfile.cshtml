@@ -1,0 +1,86 @@
+﻿@model UpdateProfileVM  
+@{
+    ViewData["Title"] = "EditProfile";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<section style="padding:120px;" id="editProfile">
+    <div class="container">
+        <div class="row d-flex flex-column align-items-center justify-content-center"  >
+            <div class="col-12 text-center">
+                <h5>Profilini Yenilə</h5>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 d-flex justify-content-center align-items-center">
+                @if (Model.applicationUser.PhotoUrl != null)
+                {
+                    <div style="width:100%;height:505px;position:relative" class="user-profile-img-div">
+                        <img id="userProfileImg" class="img-fluid" style="width:100%;height:100%;" src="~/userImages/@Model.applicationUser.PhotoUrl" />
+                        <i style="position:absolute;top:0;right:0; color:darkred;font-size:24px;" class="fas fa-times"></i>
+                    </div>
+                }
+
+            </div>
+            <div class="col-12 d-flex d-sm-flex flex-column flex-sm-column flex-md-row justify-content-center  align-items-center">
+
+                <form method="post" enctype="multipart/form-data" class="d-flex flex-column">
+                    <div asp-validation-summary="ModelOnly"></div>
+                    <div class="edit-name d-flex">
+                        <label asp-for="applicationUser.Firstname">Ad:</label>
+                        <input asp-for="applicationUser.Firstname">
+                        <span asp-validation-for="applicationUser.Firstname"></span>
+                    </div>
+                    <div class="edit-surname d-flex ">
+                        <label asp-for="applicationUser.Lastname">Soyad:</label>
+                        <input asp-for="applicationUser.Lastname">
+                        <span asp-validation-for="applicationUser.Lastname"></span>
+                    </div>
+                    <div class="edit-username d-flex ">
+                        <label asp-for="applicationUser.UserName">İstifadəçi Adı:</label>
+                        <input asp-for="applicationUser.UserName">
+                        <span asp-validation-for="applicationUser.UserName"></span>
+                    </div>
+                    <div class="edit-password d-flex">
+                        <label asp-for="СurrentPassword">Cari şifrə</label>
+                        <input asp-for="СurrentPassword">
+                        <span asp-validation-for="СurrentPassword"></span>
+                    </div>
+                    <div class="edit-password d-flex">
+                        <label asp-for="NewPassword"> Yeni Şifrə</label>
+                        <input asp-for="NewPassword">
+                        <span asp-validation-for="NewPassword"></span>
+                    </div>
+                    <div class="edit-birthdate d-flex ">
+                        <label asp-for="ConfirmPassword">Şifrəni Təsdiqlə:</label>
+                        <input asp-for="ConfirmPassword" class="edit-input-date">
+                        <span asp-validation-for="ConfirmPassword"></span>
+                    </div>
+                    <div class="edit-email d-flex ">
+                        <label asp-for="applicationUser.Email">Email:</label>
+                        <input asp-for="applicationUser.Email">
+                        <span asp-validation-for="applicationUser.Email"></span>
+                    </div>
+                    <div class="edit-phoneNumber d-flex">
+                        <label asp-for="@Model.OperatorId">Nömrə:</label>
+                        <select id="edit-profile-select-operator" asp-for="@Model.OperatorId" class="edit-phoneNumber-operators" asp-items="@(new SelectList(ViewBag.Operators,"Id","OperatorNumber"))">
+                            <option>Secin</option>
+                        </select>
+                        <input asp-for="applicationUser.PhoneNumber" class="edit-userNumberInput">
+                        <span asp-validation-for="applicationUser.PhoneNumber"></span>
+                    </div>
+                    <div class="edit-userImage d-flex ">
+                        <label asp-for="Photo">Profil Şəkli:</label>
+                        <input asp-for="Photo" class="edit-userImageInput">
+                        <div class="edit-imageFakeDiv d-flex justify-content-center align-items-center">
+                            <i class="fas fa-upload"></i>
+                        </div>
+                    </div>
+                    <div class="edit-confirm">
+                        <input class="edit-confirm-btn d-flex justify-content-center align-items-center" type="submit" value="Yenilə">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</section>
